@@ -1,0 +1,29 @@
+{
+  "name": "warmup-reps",
+  "description": "Playing around with weightlifting calculations.",
+  "keywords": [
+    "weights",
+    "weightlifting",
+    "bodybuilding",
+    "exercise",
+    "warmup",
+    "reps",
+    "sets"
+  ],
+  "version": "0.0.0",
+  "author": "Domenic Denicola <domenic@domenicdenicola.com> (http://domenic.me/)",
+  "license": "WTFPL",
+  "repository": "https://github.com/domenic/warmup-reps",
+  "main": "./lib/warmup-reps.js",
+  "scripts": {
+    "test": "mocha --compilers js:mocha-traceur test/*.js"
+  },
+  "devDependencies": {
+    "mocha": "~1.20.1",
+    "mocha-traceur": "domenic/mocha-traceur#patch-1",
+    "traceur": "0.0.49"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
